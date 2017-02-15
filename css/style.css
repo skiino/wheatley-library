@@ -1,4 +1,4 @@
-
+/*Overall Styling*/
 
 h1,
 h2 {
@@ -15,4 +15,8 @@ h2 {
 
 html {
   font-family: 'Open Sans', sans-serif;
+}
+
+.contact li {
+  list-style: none;
 }
