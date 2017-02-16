@@ -20,3 +20,35 @@ html {
 .contact li {
   list-style: none;
 }
+
+
+/*checkout schedule table*/
+
+table, th, tr, td {
+  border: 1px solid black;
+}
+
+th {
+  font-size: 25px;
+}
+
+th, .table_foot {
+  padding: 5px 0;
+  height: 50px;
+}
+
+tr td {
+  width: 16.6666%;
+}
+
+td {
+  padding: 5px 0;
+  text-align: center;
+
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
