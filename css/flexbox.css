@@ -1,0 +1,7 @@
+/*Flexbox main styling*/
+
+header,
+div,
+footer {
+  display: flex;
+}
