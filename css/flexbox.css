@@ -1,7 +1,9 @@
-/*Flexbox main styling*/
 
-header,
-div,
-footer {
+body {
   display: flex;
+}
+
+footer {
+  flex-direction: row;
+
 }
