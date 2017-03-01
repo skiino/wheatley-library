@@ -1,7 +1,8 @@
-/*Overall Styling*/
+/*OVERALL STYLES*/
 
 body {
   background-color: #fff;
+
 }
 
 div {
@@ -26,23 +27,38 @@ html {
 }
 
 
+/*HEADER*/
 
-
-
-/*Header*/
 
 .main-header {
-  background-image: url('../img/bookshelves.png');
-  background-size: cover;
 
+  background-size: cover;
+  background-color: #ff3333;
+  color: black;
+  max-height: 200px;
 }
 
-
-h1,
-h2,
-.main-nav li {
+h1 {
   text-align: center;
 }
+
+h2,
+.main-nav,
+.main-nav li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-nav li {
+  float: left;
+  padding-top: 10px;
+}
+
+.main-header h2 {
+  padding-bottom: 20px;
+}
+
 
 .main-nav li {
   list-style-type: none;
@@ -50,11 +66,29 @@ h2,
 
 
 
+/*BODY*/
 
-/*footer*/
+.main-header,
+.main-content {
+  margin: 0;
+  padding: 0;
+}
+
+
+.bookshelves {
+  width: 100%;
+  max-height: 200px;
+
+}
+
+
+
+/*FOOTER*/
+
+
 
 footer {
-  border-top: 4px solid #ff3333;
+  background-color: #ff3333;
 
 }
 
@@ -64,14 +98,17 @@ img.resize {
 }
 
 
-/*Contact Page*/
+/*CONTACT PAGE*/
+
+
 
 .contact li {
   list-style: none;
 }
 
 
-/*Checkout Schedule Table*/
+/*CHECKOUT SCHEDULE PAGE*/
+
 
 table, th, tr, td {
   border: 1px solid black;
@@ -101,3 +138,6 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+
+
+/*MEDIA QUERIES*/
