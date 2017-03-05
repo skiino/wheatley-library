@@ -1,13 +1,18 @@
 /*OVERALL STYLES*/
 
+* {
+	box-sizing: border-box;
+}
+
 body {
   background-color: #fff;
 
 }
 
-div {
-  padding: 10px 5px;
+a {
+  text-decoration: none;
 }
+
 
 h1,
 h2 {
@@ -19,11 +24,17 @@ font-size: 2em;
 }
 
 h2 {
-  2em;
+font-size: 1.5em;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
+}
+
+header,
+.main-content {
+		width: 95%;
+		margin: 0 auto;
 }
 
 
@@ -31,48 +42,27 @@ html {
 
 
 .main-header {
-
   background-size: cover;
-  background-color: #ff3333;
-  color: black;
+  background-color: #fff;
+  color: #ff3333;
   max-height: 200px;
-}
-
-h1 {
-  text-align: center;
-}
-
-h2,
-.main-nav,
-.main-nav li {
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
 
 .main-nav li {
   float: left;
   padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+	list-style-type: none;
 }
-
-.main-header h2 {
-  padding-bottom: 20px;
-}
-
-
-.main-nav li {
-  list-style-type: none;
-}
+ h1,
+ h2 {
+	 text-align: center;
+ }
 
 
 
 /*BODY*/
-
-.main-header,
-.main-content {
-  margin: 0;
-  padding: 0;
-}
 
 
 .bookshelves {
@@ -104,6 +94,7 @@ img.resize {
 
 .contact li {
   list-style: none;
+	padding: 5px 0;
 }
 
 
@@ -141,3 +132,13 @@ table {
 
 
 /*MEDIA QUERIES*/
+
+@media (min-width: 500px) {
+
+	header,
+	.main-content {
+			width: 85%;
+			margin: 0 auto;
+	}
+
+}

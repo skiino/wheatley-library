@@ -7,23 +7,8 @@
   display: flex;
 }
 
-
-
 .main-nav li {
   flex-grow: 1;
-}
-
-}
-
-.main-content {
-  flex-direction: column;
-}
-
-
-.main-content,
-.main-header {
-  flex-direction: column;
-  align-items: center;
 }
 
 
