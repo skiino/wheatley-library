@@ -4,9 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-  background-color: #cccccc;
-
 }
 
 a {
@@ -31,30 +28,26 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
-/*NAVBAR*/
-
-.title {
-	text-color: #ff3333;
-
-
-}
-
-
-
-/*BODY*/
-
-
-
-
-
 .main-content {
 		width: 95%;
 		margin: 0 auto;
 		padding-top: 1.5em;
 }
 
+
+/*NAVBAR*/
+
+
+#title {
+	color: #ff3333;
+	font-size: 19px;
+}
+
+
+.nav li:hover,
+.icon-bar:hover {
+	background-color: #ff6e6e;
+}
 
 
 /*FOOTER*/
@@ -149,9 +142,6 @@ table {
 		flex-direction: column;
 	}
 
-	.bookshelves {
-		width: 100%;
-	}
 
 
 }
