@@ -33,45 +33,19 @@ html {
 
 
 
+/*NAVBAR*/
 
-/*HEADER*/
+.title {
+	text-color: #ff3333;
 
 
-.main-header {
-  background-size: cover;
-  color: #ff3333;
-  max-height: 200px;
-	padding-bottom: 1.5em;
 }
-
-.main-nav li {
-  float: left;
-  padding: 15px;
-  font-size: 18px;
-  font-weight: bold;
-	list-style-type: none;
-	background-color: #ff3333;
-}
- h1,
- h2 {
-	 text-align: center;
- }
 
 
 
 /*BODY*/
 
 
-/*BOOKSHELF IMAGE*/
-
-.bookshelves {
-  max-height: 100px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-
-}
 
 
 
@@ -89,6 +63,7 @@ html {
 
 footer {
   background-color: #ff3333;
+	text-align:center;
 
 }
 
@@ -151,10 +126,14 @@ td {
 table {
   border-collapse: collapse;
   width: 100%;
+	margin-top: 100px;
 }
 
 
 /*MEDIA QUERIES*/
+
+
+
 
 @media (min-width: 500px) {
 	.main-content {

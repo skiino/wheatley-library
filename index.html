@@ -8,29 +8,40 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/flexbox.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
 </head>
 
 <body>
 
 
-<!--MAIN HEADER-->
+<!--NAVBAR-->
 
 
-  <header class="main-header" class="container">
-      <ul class="main-nav">
-        <li class="selected"><a href="index.html">Home</a></li>
-        <li><a href="people.html">Who Works Here?</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="schedule.html">Checkout Schedule</a></li>
-        <li><a href="expectations.html">Library Expectations</a></li>
-      </ul>
-      <h1>Wheatley Elementary Library</h1>
-      <h2>Louisville, Kentucky</h2>
-  </header>
+  <div class="navbar navbar-default navbar-fixed">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+      <p class="navbar-brand title">Wheatley School Library | Louisville, KY</p>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="expectations.html">Expectations</a></li>
+        </ul>
+      </div>
+  </div>
 
 
-<img src="img/bookshelves.png" class="bookshelves" alt="Bookshelves"></img>
+
 
 <!--MESSAGE FROM MS. DOWNS-->
 
@@ -65,10 +76,16 @@
 
 
 
-    <footer class="container">
+    <footer>
       <a href="http://schools.jefferson.kyschools.us/elementary/Wheatley/about.html"><img  src="img/wheatleywildcat.png" alt="Wheatley Wildcat"></a>
       <a href="https://www.jefferson.kyschools.us/"><img src="img/jcpslogo.png" alt="JCPS Logo"></a>
     </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.2.0.min.js"
+    integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+    crossorigin="anonymous"></script>
 
 
 </body>
