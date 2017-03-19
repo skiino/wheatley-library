@@ -21,12 +21,14 @@ font-size: 2em;
 }
 
 h2 {
-font-size: 1.5em;
+font-size: 1em;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
 }
+
+
 
 .main-content {
 		width: 95%;
@@ -46,8 +48,27 @@ html {
 
 .nav li:hover,
 .icon-bar:hover {
-	background-color: #ff6e6e;
+	background-color: #ffa1a1;
 }
+
+
+
+/*BOOKSHELVES IMAGE*/
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 15px;
+}
+
+
+/*FLEXBOX*/
+
+.container {
+	display: flex;
+}
+
 
 
 /*FOOTER*/
@@ -57,6 +78,7 @@ html {
 footer {
   background-color: #ff3333;
 	text-align:center;
+	margin-top: 20px;
 
 }
 
@@ -72,7 +94,10 @@ img.resize {
 
 .books {
 	list-style: none;
+}
 
+.welcome {
+	text-align: center;
 }
 
 
@@ -85,7 +110,6 @@ img.resize {
 	padding: 0;
 	margin: 0;
 	display: block;
-
 }
 
 
@@ -119,7 +143,8 @@ td {
 table {
   border-collapse: collapse;
   width: 100%;
-	margin-top: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 
@@ -129,8 +154,8 @@ table {
 
 
 @media (min-width: 500px) {
-	.main-content {
-			width: 85%;
+	.container {
+			width: 90%;
 			margin: 0 auto;
 	}
 
@@ -138,10 +163,18 @@ table {
 }
 
 @media (max-width: 850px) {
-	.main-content {
+	.container {
 		flex-direction: column;
 	}
 
+}
+
+
+@media (min-width: 850px) {
+
+	.kiino {
+		padding-left: 20px;
+	}
 
 
 }
