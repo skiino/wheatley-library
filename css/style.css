@@ -11,17 +11,13 @@ a {
 }
 
 
-h1,
+
 h2 {
 font-family: 'Nunito', sans-serif;
 }
 
-h1 {
-font-size: 2em;
-}
-
 h2 {
-font-size: 1em;
+font-size: .5em;
 }
 
 html {
@@ -66,25 +62,37 @@ html {
 /*FLEXBOX*/
 
 .container {
-	display: flex;
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
 }
 
 
 
 /*FOOTER*/
 
-
-
 footer {
   background-color: #ff3333;
 	text-align:center;
-	margin-top: 20px;
+
 
 }
 
 img.resize {
   max-width: 50%;
   max-height: 50%;
+}
+
+
+/*STICKY FOOTER*/
+
+
+.content {
+	min-height: calc(100vh - 65px);
+}
+
+.footer {
+	height: 65px;
 }
 
 
@@ -95,6 +103,9 @@ img.resize {
 .books {
 	list-style: none;
 }
+
+
+
 
 .welcome {
 	text-align: center;
@@ -153,28 +164,38 @@ table {
 
 
 
-@media (min-width: 500px) {
-	.container {
+@media only screen and (min-width: 500px) {
+	.main-content {
 			width: 90%;
 			margin: 0 auto;
 	}
 
-
 }
 
-@media (max-width: 850px) {
+
+@media only screen and (max-width: 850px) {
 	.container {
 		flex-direction: column;
 	}
 
 }
 
+@media only screen and (min-width: 850px) {
 
-@media (min-width: 850px) {
-
-	.kiino {
+	.col-padding {
 		padding-left: 20px;
 	}
+
+/*2-COLUMN LAYOUT*/
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+
+/*3-COLUMN LAYOUT*/
 
 
 }
