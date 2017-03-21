@@ -55,6 +55,8 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
+	width: 100%;
+	max-height: 200px;
 	padding-top: 15px;
 }
 
@@ -63,7 +65,7 @@ html {
 
 .container {
     display:flex;
-    justify-content:flex-start;
+  	justify-content:flex-start;
     align-items:stretch;
 }
 
@@ -100,17 +102,20 @@ img.resize {
 
 /*INDEX PAGE*/
 
-.books {
+.book-list {
 	list-style: none;
 }
 
-
-
-
-.welcome {
+.welcome,
+.author-hdline {
 	text-align: center;
 }
 
+.intro,
+.author,
+.books {
+	display: inline-block;
+}
 
 /*CONTACT PAGE*/
 
@@ -125,6 +130,11 @@ img.resize {
 
 
 /*CHECKOUT SCHEDULE PAGE*/
+
+
+.table_head {
+	text-align: center;
+}
 
 
 table, th, tr, td {
@@ -180,13 +190,22 @@ table {
 
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 850px) and (max-width: 1199px) {
 
-	.col-padding {
+	.col-padding,
+	.books {
 		padding-left: 20px;
 	}
 
-/*2-COLUMN LAYOUT*/
+	.text {
+		float: left;
+		max-width: 65%;
+	}
+
+	.books {
+		float: right;
+		max-width: 35%;
+	}
 
 
 }
@@ -194,8 +213,39 @@ table {
 
 @media only screen and (min-width: 1200px) {
 
+	.intro,
+	.author,
+	.books {
+		float: left;
+		width: 33%;
+	}
+
+	.books,
+	.author {
+		padding-left: 20px;
+	}
+
+
+
+
+
+	}
+
+
+
+
+
 
 /*3-COLUMN LAYOUT*/
 
 
+}
+
+
+
+/*CLEARFIX*/
+
+.clearfix::after {
+	content: "";
+	clear: both;
 }
