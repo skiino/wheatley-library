@@ -25,7 +25,6 @@ html {
 }
 
 
-
 .main-content {
 		width: 95%;
 		margin: 0 auto;
@@ -106,7 +105,7 @@ img.resize {
 
 
 
-/*INDEX PAGE*/
+/*INDEX PAGE STYLES*/
 
 
 .book-list {
@@ -137,7 +136,8 @@ img.resize {
 
 
 
-/*CONTACT PAGE*/
+/*CONTACT PAGE STYLES*/
+
 
 
 
@@ -150,8 +150,7 @@ img.resize {
 
 
 .contact-head {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 30px 0;
 }
 
 .address,
@@ -167,7 +166,8 @@ img.resize {
 
 
 
-/*CHECKOUT SCHEDULE PAGE*/
+
+/*CHECKOUT SCHEDULE PAGE STYLES*/
 
 
 .table_head {
@@ -233,6 +233,18 @@ table {
 }
 
 
+@media only screen and (min-width: 850px) {
+	.rules,
+	.lost-books {
+		max-width: 45%;
+	}
+
+
+
+}
+
+
+
 @media only screen and (min-width: 850px) and (max-width: 1199px) {
 
 	.col-padding,
@@ -296,14 +308,10 @@ h2,
 .author {
 	padding-left: 75px;
 
-
 }
 
 
 	}
-
-
-
 
 
 
