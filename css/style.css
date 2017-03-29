@@ -139,14 +139,11 @@ img.resize {
 /*CONTACT PAGE STYLES*/
 
 
-
-
 #contact li {
   list-style: none;
 	padding: 0;
 	margin: 0;
 	}
-
 
 
 .contact-head {
@@ -163,7 +160,6 @@ img.resize {
 	width: 500px;
 	margin: 0 auto;
 }
-
 
 
 
@@ -208,11 +204,7 @@ table {
 
 
 
-
-
-
 /*MEDIA QUERIES*/
-
 
 
 
@@ -270,7 +262,6 @@ table {
 		padding-top: 35px;
 
 	}
-
 
 }
 
